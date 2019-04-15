@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Allishop</title>
@@ -9,8 +10,38 @@
   <link rel="icon" type="image/x-icon" href="assets/footwear1.jpg">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
 <link rel="stylesheet" href="styles.59ed79c206f24ae0a24c.css"></head>
+
 <body>
   <app-root></app-root>
-<script type="text/javascript" src="runtime.06daa30a2963fa413676.js"></script><script type="text/javascript" src="polyfills.9d2cdfa1f0de090233d7.js"></script><script type="text/javascript" src="main.27baa006948944cbe843.js"></script></body>
+
+  <script>
+
+function greet(){
+	alert("hello");
+}
+
+$(document).ready(function(){
+	// $("#menu-toggle-button").click(function(){
+	// 	alert("Hello");
+	// 	$("#mobile-nav-container").hidden();
+	// });
+
+
+	$('#menu-toggle-button').click(function(){
+		// alert("Hello");
+            // $('#mobile-nav-container').toggleClass('hidden', 1000);
+            $('#mobile-nav-container').toggle(200);
+
+     });
+
+});
+  </script>
+<script type="text/javascript" src="runtime.06daa30a2963fa413676.js"></script><script type="text/javascript" src="polyfills.9d2cdfa1f0de090233d7.js"></script><script type="text/javascript" src="main.59c3082d7b6ccf7e730c.js"></script></body>
+
 </html>
